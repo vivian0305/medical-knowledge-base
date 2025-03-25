@@ -1,0 +1,78 @@
+.layout {
+  min-height: 100vh;
+}
+
+.ant-layout-header {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.ant-layout-content {
+  padding: 0 50px;
+}
+
+/* 搜索框样式 */
+.search-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.search-input {
+  width: 60%;
+  max-width: 800px;
+}
+
+/* 卡片样式 */
+.category-card {
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.category-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #1890ff;
+}
+
+/* 搜索结果页样式 */
+.search-results {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+  border-radius: 4px;
+}
+
+.result-card {
+  margin-bottom: 16px;
+}
+
+.tag-container {
+  margin: 8px 0;
+}
+
+.description-text {
+  color: rgba(0, 0, 0, 0.65);
+  margin: 8px 0;
+}
+
+/* 面包屑导航样式 */
+.breadcrumb {
+  margin: 16px 0;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .ant-layout-content {
+    padding: 0 20px;
+  }
+
+  .search-input {
+    width: 90%;
+  }
+} 
